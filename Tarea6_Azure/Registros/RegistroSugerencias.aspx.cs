@@ -66,7 +66,7 @@ namespace Tarea6_Azure.Registros
         }
         protected void GuadarButton_Click(object sender, EventArgs e)
         {
-            RepositorioBase<Sugerencia> repositorio = new BLL.RepositorioBase<Sugerencia>();
+            RepositorioBase<Sugerencia> repositorio = new RepositorioBase<Sugerencia>();
             Sugerencia sugerencia = new Sugerencia();
             sugerencia = LlenaClase();
             bool paso = false;
@@ -101,7 +101,7 @@ namespace Tarea6_Azure.Registros
 
         protected void BuscarButton_Click(object sender, EventArgs e)
         {
-            int id = Utils.ToInt(Request.QueryString["id"]);
+            int id = Utils.ToInt(Request.QueryString["SugerenciaID"]);
             if (id > 0)
             {
                 RepositorioBase<Sugerencia> repositorio = new RepositorioBase<Sugerencia>();

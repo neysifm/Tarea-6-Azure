@@ -129,6 +129,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Properties\PublishProfiles\SugerenciasAppNFM - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\SugerenciasAppNFM - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Registros\RegistroSugerencias.aspx" />
     <Content Include="Scripts\bootstrap.js" />
